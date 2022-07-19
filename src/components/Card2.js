@@ -14,7 +14,6 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import image1 from "../resources/image1.jpg";
 
 const ExpandMore = styled((props) => {
 	const { expand, ...other } = props;
@@ -27,7 +26,7 @@ const ExpandMore = styled((props) => {
 	}),
 }));
 
-export default function RecipeReviewCard() {
+export default function Card2() {
 	const [expanded, setExpanded] = React.useState(false);
 
 	const handleExpandClick = () => {
@@ -47,16 +46,15 @@ export default function RecipeReviewCard() {
 						<MoreVertIcon />
 					</IconButton>
 				}
-				title="Camera 1"
+				title="Camera 2"
 				subheader="September 14, 2016"
 			/>
 			<CardMedia
 				component="img"
 				height="194"
-				// image="/resources/image1.jpg"
 				image="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202109/ATM_services_30092021.jpg?DeN2sZVpHfsvFfb3vjsOWJ_8LMpq7iag&size=770:433"
-				alt="Paella dish no"
-			></CardMedia>
+				alt="Paella dish"
+			/>
 			<CardContent>
 				<Typography variant="body2" color="text.secondary">
 					This impressive paella is a perfect party dish and a fun meal to cook

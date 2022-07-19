@@ -1,3 +1,21 @@
-*{
-  margin: 0%;
+* {
+	margin: 0%;
+}
+.cards {
+	/* border: 1px solid black; */
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* justify-content: ; */
+}
+.Class1 {
+	display: flex;
+	/* border: 1px xolid green; */
+	/* justify-content: ; */
+	flex-direction: column;
+}
+.class2 {
+	display: flex;
+	/* border: 1px xolid green; */
+	flex-direction: column;
 }
