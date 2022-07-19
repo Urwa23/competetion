@@ -1,0 +1,40 @@
+.footer{
+    /* padding: 20%;        */
+    height: 25%;
+    background-color: #1E2641;
+    /* position: fixed;     */
+    position: absolute;
+    display: flex;    
+    color: white;
+    /* margin-left: auto;    */
+	margin-top: auto;
+	margin-bottom: 0px;
+    /* margin-right: auto; */
+	bottom: 0;
+	width: 100%;
+        
+}
+
+.footer-text-left {
+    font-size: 12px;
+    padding-left:70px;
+    float: left;
+    text-align: left;
+    word-spacing:20px;
+  }
+
+
+.ul {
+	margin: 40px;
+	line-height: 1.5;
+	padding: 50px;
+}
+
+li {
+	padding-top: 10px;
+}
+
+/* #wrapper {
+    margin:0 auto;
+    display:table;
+    } */
